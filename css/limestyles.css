@@ -15,7 +15,7 @@ body{
 .topnav a {
   float: left;
   display: block;
-  color: #e74c3c;
+  color: #4286f4;
   text-align: center;
   padding: 24px 7%;
   text-decoration: none;
@@ -59,7 +59,7 @@ body{
   text-align: left;
 }
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #e74c3c;
+  background-color: #4286f4;
   color: white;
 }
 .dropdown-content a:hover {

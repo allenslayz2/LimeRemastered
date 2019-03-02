@@ -108,3 +108,46 @@ body{
   border-bottom-color: rgba(255, 255, 255, 0.1);
   height: 67px;
 }
+
+.leftText {
+  display:inline-block;
+  margin-left:7%;
+  margin-top:17px;
+  float:left;
+  color:#FFFFFF;
+  text-decoration:none;
+  font-weight:700;
+  font-size:20px;
+  font-family:"roboto", Sans-Serif;
+}
+ .leftText:hover, .leftText:active {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+@media (max-width:600px) {
+.leftText {
+  display:none;
+}
+}
+
+a.button1{
+  display:inline-block;
+  padding:1.4em 1.4em;
+  margin:0 0.3em 0.3em 0;
+  text-decoration:none;
+  font-family:'comfort',sans-serif;
+  font-weight:700;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+  margin-top:8px;
+  float:right;
+}
+a.button1:hover{
+  color:#4286f4;
+}
+@media screen and (max-width:600px){
+a.button1{
+  display:none;
+}
+}

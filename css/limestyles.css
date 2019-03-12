@@ -132,11 +132,11 @@ body{
 
 @font-face {
   font-family: title;
-  src: url(autobus.ttf);
+  src: url(/autobus.ttf);
 }
 @font-face {
   font-family: comfort;
-  src: url(Comfortaa.ttf);
+  src: url(/Comfortaa.ttf);
 }
 
 a.button1{
@@ -163,7 +163,7 @@ display:none;
 
 .text {
   font-size: 48px;
-  font-family: title;
+  font-family: 'comfort',sans-serif;
   left: 45px;
 }
 
@@ -272,9 +272,11 @@ background-position: 0;
 
 .textwidth {
 width:40%;
+font-family: 'comfort',sans-serif;
 }
 @media (max-width:600px) {
 .textwidth {
 width:85%;
+font-family: 'comfort',sans-serif;
 }
 }
